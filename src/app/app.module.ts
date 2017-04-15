@@ -11,13 +11,16 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { ElasticHeader } from '../components/elastic-header/elastic-header';
+
 @NgModule({
   declarations: [
     MyApp,
     GeofencePage,
     ProfilePage,
     BeaconPage,
-    TabsPage
+    TabsPage,
+    ElasticHeader
   ],
   imports: [
     BrowserModule,

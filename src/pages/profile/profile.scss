@@ -1,3 +1,26 @@
-page-contact {
+page-profile {
+  .background-image {
+        background-image: url(https://ununsplash.imgix.net/photo-1421091242698-34f6ad7fc088?fit=crop&fm=jpg&h=650&q=75&w=950);
+        background-size: cover;
+        background-position: center;
+        height: 50vw;
+        width: 50vw;
+        border-radius:50%;
+        display: block;
+        margin: 0 auto;
+        margin-top:5px;
+    }
+    
+    .profile_name{
+      text-align:center;
+    }
 
+    .main-content {
+        padding: 20px;
+        background-color: white;
+        position: absolute;
+    }
+    .profile-para{
+        visibility:hidden;
+    }
 }
